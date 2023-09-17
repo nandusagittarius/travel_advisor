@@ -11,7 +11,7 @@ import useStyles from './styles';
     return(
         <div className={classes.mapContainer}>
              <GoogleMapReact
-             bootstrapURLKeys={{key:'AIzaSyD73CO_PqHDRRjDKDDlszETvMYz4ztBKBA'}}
+             bootstrapURLKeys={{key:''}}
              defaultCenter={coordinates}
              center={coordinates}
              defaultZoom={14}
